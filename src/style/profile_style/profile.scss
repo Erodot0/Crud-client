@@ -1,0 +1,61 @@
+.profile {
+    &__heading {
+        font-size: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    &__email,
+    &__password,
+    &__role {
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+    }
+
+    &__links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    &__link {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        color: #000;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+
+        &--add-blogs {
+            background-color: #007bff;
+            color: #fff;
+
+            &:hover {
+                background-color: #0062cc;
+                color: #fff;
+            }
+        }
+
+        &--users {
+            background-color: #6c757d;
+            color: #fff;
+
+            &:hover {
+                background-color: #5a6268;
+                color: #fff;
+            }
+        }
+    }
+}

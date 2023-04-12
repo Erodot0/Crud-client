@@ -1,0 +1,88 @@
+.users {
+    margin: 20px;
+
+    &__title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: bold;
+        color: #0074d9;
+    }
+
+    &__table {
+        border-collapse: collapse;
+        width: 100%;
+
+        &-head {
+            background-color: #0074d9;
+            color: #fff;
+            font-weight: bold;
+
+            &-item {
+                border: 1px solid #ddd;
+                padding: 8px;
+                text-align: left;
+            }
+        }
+
+        &-body {
+            border: 1px solid #ddd;
+            padding: 8px;
+
+            &-row {
+                border-bottom: 1px solid #ddd;
+
+                &:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+
+                .row__item {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                    text-align: left;
+
+                    &:last-child {
+                        text-align: center;
+
+                        &>* {
+                            margin: 0 5px;
+                        }
+
+                        & .users__table-link {
+                            color: #0074d9;
+                            text-decoration: none;
+                            transition: 0.3s ease-in-out;
+                            cursor: pointer;
+                        }
+
+                        & .users__table-button {
+                            background-color: #0074d9;
+                            border: none;
+                            color: #fff;
+                            cursor: pointer;
+                            transition: 0.3s ease-in-out;
+                            padding: 8px;
+
+                            &:hover {
+                                background-color: #005fbf;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.back-button {
+    background-color: #0074d9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: #005fbf;
+    }
+}

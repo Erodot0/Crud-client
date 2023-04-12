@@ -1,0 +1,74 @@
+.users {
+  margin: 20px;
+}
+.users__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #0074d9;
+}
+.users__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.users__table-head {
+  background-color: #0074d9;
+  color: #fff;
+  font-weight: bold;
+}
+.users__table-head-item {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.users__table-body {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.users__table-body-row {
+  border-bottom: 1px solid #ddd;
+}
+.users__table-body-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.users__table-body-row .row__item {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.users__table-body-row .row__item:last-child {
+  text-align: center;
+}
+.users__table-body-row .row__item:last-child > * {
+  margin: 0 5px;
+}
+.users__table-body-row .row__item:last-child .users__table-link {
+  color: #0074d9;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.users__table-body-row .row__item:last-child .users__table-button {
+  background-color: #0074d9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  padding: 8px;
+}
+.users__table-body-row .row__item:last-child .users__table-button:hover {
+  background-color: #005fbf;
+}
+
+.back-button {
+  background-color: #0074d9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 20px;
+}
+.back-button:hover {
+  background-color: #005fbf;
+}/*# sourceMappingURL=userlist.css.map */

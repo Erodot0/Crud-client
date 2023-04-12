@@ -1,0 +1,49 @@
+.profile__heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+.profile__email, .profile__password, .profile__role {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.profile__links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.profile__link {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.profile__link--add-blogs {
+  background-color: #007bff;
+  color: #fff;
+}
+.profile__link--add-blogs:hover {
+  background-color: #0062cc;
+  color: #fff;
+}
+.profile__link--users {
+  background-color: #6c757d;
+  color: #fff;
+}
+.profile__link--users:hover {
+  background-color: #5a6268;
+  color: #fff;
+}/*# sourceMappingURL=profile.css.map */

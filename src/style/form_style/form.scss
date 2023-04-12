@@ -1,0 +1,66 @@
+//form style
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    &-field {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        position: relative;
+
+        &__label {
+            font-size: 16px;
+            color: #ccc;
+            background-color: white;
+            cursor: text;
+        }
+
+        &__input {
+            all: unset;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+    }
+
+    &-radio {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    &-button {
+        all: unset;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: none;
+        background-color: #2196f3;
+        color: white;
+        text-align: center;
+        transition: 0.3s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #1976d2;
+        }
+    }
+
+    &-link {
+        all: unset;
+        text-decoration: none;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
